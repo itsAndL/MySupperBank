@@ -17,7 +17,7 @@ namespace MySupperBank
 
         static void OurMainSupperBank()
         {
-            var account = new BankAccount("Ayoub", 1000);
+            var account = new BankAccount("Tim", 1000);
             Console.WriteLine($"Account {account.Number} " +
                 $"was created for {account.Owner} with {account.Balance} initial balance.");
 
